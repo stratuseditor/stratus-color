@@ -1,0 +1,7 @@
+{ "Test-begin-end-multiline":
+  [ { "token": "string"
+    , "begin": "\""
+    , "end":   "\""
+    }
+  ]
+}

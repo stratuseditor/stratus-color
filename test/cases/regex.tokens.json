@@ -1,0 +1,16 @@
+[ [ { "text": "Cheese"
+    , "type": "cheesy"
+    }
+  , { "text": " and"
+    , "type": ""
+    }
+  ]
+, [ { "text": "more "
+    , "type": ""
+    }
+  , { "text": "cheese"
+    , "type": "cheesy"
+    }
+  ]
+, []
+]

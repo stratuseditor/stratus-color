@@ -1,0 +1,14 @@
+{ "Test-begin-end-include-self":
+  [ { "token": "string"
+    , "begin": "\""
+    , "end":   "\""
+    , "include":
+      [ { "token":   "string.interpol"
+        , "begin":   "#{"
+        , "end":     "}"
+        , "include": "$self"
+        }
+      ]
+    }
+  ]
+}

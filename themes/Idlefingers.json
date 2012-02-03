@@ -1,0 +1,76 @@
+{ "background": "#323232"
+, "color":      "white"
+
+, "search": { "background": "rgba(255, 255, 255, 0.4)" }
+, "emphasize":
+  { "background":  "rgba(255, 255, 255, 0.08)"
+  , "border":      "1px solid rgba(255, 255, 255, 0.35)"
+  , "margin-left": "-1px"
+  , "margin-top":  "-1px"
+  }
+
+, "line-numbers":
+  { "background": "#f4f4f4"
+  , "color":      "#888"
+  }
+, "current-line-numbers":
+  { "background":   "#fff"
+  , "border-color": "#ccc"
+  }
+
+, "cursor":    "white"
+, "selection": "rgba(90, 100, 126, 0.35)"
+
+, "highlight":
+  { "comment":
+    { "color": "#bc9458"
+    , "font-style": "italic"
+    }
+  
+  , "constant":           { "color": "#b7dff8" }
+  , "constant.builtin":   { "color": "#6c99bb" }
+  , "constant.numeric":   { "color": "#6c99bb" }
+  , "constant.character": { "color": "#a5c261" }
+  , "constant.symbol":    { "color": "#6c99bb" }
+  
+  , "entity":               { "color": "#ffc66d" }
+  , "entity.builtin":       { "color": "#da4939" }
+  , "entity.class":         { "color": "#ffc66d" }
+  , "entity.function":      { "color": "#ffc66d" }
+  , "entity.tag":           { "color": "#ffc66d" }
+  , "entity.tag.class":     { "color": "#6c99bb" }
+  , "entity.tag.id":        { "color": "#d0cffe" }
+  , "entity.tag.attribute": { "color": "#ffc66d" }
+  , "entity.type":          { "color": "#b7dff8" }
+  
+  , "invalid":           { "border-bottom": "1px solid #da4939" }
+
+  , "keyword":           { "color": "#cc7833" }
+  , "keyword.operator":  { "color": "#cc7833" }
+  
+  , "markup.bold":       { "font-weight": "bold" }
+  , "markup.code":       {  }
+  , "markup.header":     { "color": "#b7dff8" }
+  , "markup.italic":     { "font-style": "italic" }
+  , "markup.link":       { "text-decoration": "underline" }
+  , "markup.list":       { "color": "#ffc66d" }
+  , "markup.underline":  { "text-decoration": "underline" }
+  
+  , "string":            { "color": "#a5c261" }
+  , "string.escape":     { "color": "#aaaaaa" }
+  , "string.interpol": 
+    { "color": "#aaaaaa"
+    , "background": "#202020"
+    }
+  , "string.regexp":     { "color": "#cccc33" }
+  
+  , "support":           { "color": "#da4939" }
+  , "support.class":     { "color": "#da4939" }
+  , "support.constant":  { "color": "#da4939" }
+  , "support.function":  { "color": "#da4939" }
+  , "support.type":      { "color": "#da4939" }
+  
+  , "variable":          { "color": "#b7dff8" }
+  , "variable.instance": { "color": "#d0cffe" }
+  }
+}

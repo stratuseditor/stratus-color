@@ -1,0 +1,7 @@
+{ "Test-match-behind":
+  [ { "token":  "entity.function"
+    , "match":  "[\\w]+"
+    , "behind": "[(]"
+    }
+  ]
+}

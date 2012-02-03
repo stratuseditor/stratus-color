@@ -1,0 +1,11 @@
+[ [ { "type": ""
+    , "text": "("
+    }
+  , { "type": "entity.function"
+    , "text": "define"
+    }
+  , { "type": ""
+    , "text": " cheese)"
+    }
+  ]
+, []]

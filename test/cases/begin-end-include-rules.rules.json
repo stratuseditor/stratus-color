@@ -1,0 +1,12 @@
+{ "Test-begin-end-include-rules":
+  [ { "token": "string"
+    , "begin": "\""
+    , "end":   "\""
+    , "include":
+      [ { "token": "string.escape"
+        , "match": "\\\\n"
+        }
+      ]
+    }
+  ]
+}

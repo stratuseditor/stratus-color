@@ -1,0 +1,36 @@
+[ [ { "type": "string"
+    , "text": "\"A "
+    }
+  , { "type": "string.interpol"
+    , "text": "#{"
+    }
+  , { "type": ""
+    , "text": " B "
+    }
+  , { "type": "string"
+    , "text": "\""
+    }
+  , { "type": "string.interpol"
+    , "text": "#{"
+    }
+  , { "type": ""
+    , "text": " C "
+    }
+  , { "type": "string.interpol"
+    , "text": "}"
+    }
+  , { "type": "string"
+    , "text": "\""
+    }
+  , { "type": ""
+    , "text": " "
+    }
+  , { "type": "string.interpol"
+    , "text": "}"
+    }
+  , { "type": "string"
+    , "text": " D\""
+    }
+  ]
+, []
+]

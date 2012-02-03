@@ -1,0 +1,70 @@
+{ "background": "white"
+, "color":      "black"
+
+, "search": { "background": "rgba(255, 174, 0, 0.4)" }
+
+, "line-numbers":
+  { "background": "#ececec"
+  , "color":      "#aaa"
+  }
+, "current-line-numbers":
+  { "background":   "#f5f5f5"
+  , "border-color": "#ccc"
+  }
+
+, "cursor":    "black"
+, "selection": "rgba(0, 70, 255, 0.25)"
+
+, "highlight":
+  { "comment":
+    { "color": "#998"
+    , "font-style": "italic"
+    }
+  
+  , "constant":           { "color": "teal" }
+  , "constant.builtin":   { "color": "teal" }
+  , "constant.numeric":   { "color": "#099" }
+  , "constant.character": { "color": "#d14" }
+  , "constant.symbol":    { "color": "#990073" }
+  
+  , "entity":               { "color": "#445588" }
+  , "entity.builtin":       { "color": "#0086B3" }
+  , "entity.class":         { "color": "#458", "font-weight": "bold" }
+  , "entity.function":      { "color": "#900", "font-weight": "bold" }
+  , "entity.tag":           { "color": "navy" }
+  , "entity.tag.class":     { "color": "#458" }
+  , "entity.tag.id":        { "color": "#900", "font-weight": "bold" }
+  , "entity.tag.attribute": { "color": "teal" }
+  , "entity.type":          { "color": "#458", "font-weight": "bold" }
+  
+  , "invalid":           { "border-bottom": "1px solid #da4939" }
+
+  , "keyword": { "color": "#000"
+               , "font-weight": "bold"
+               }
+  , "keyword.operator": {  }
+  
+  
+  , "markup.bold":       { "font-weight": "bold" }
+  , "markup.code":       {  }
+  , "markup.header":     { "color": "#222", "font-weight": "bold" }
+  , "markup.italic":     { "font-style": "italic" }
+  , "markup.link":       { "text-decoration": "underline" }
+  , "markup.list":       { "font-weight": "bold" }
+  , "markup.underline":  { "text-decoration": "underline" }
+  
+  , "string":            { "color": "#d14" }
+  , "string.escape":     { "color": "purple" }
+  , "string.interpol":   { }
+  , "string.regexp":     { "color": "#009926" }
+  
+  , "support":           { "color": "teal" }
+  , "support.class":     {  }
+  , "support.constant":  {  }
+  , "support.function":  {  }
+  , "support.type":      {  }
+  
+  , "variable":          { "color": "teal" }
+  , "variable.instance": { "color": "teal" }
+  }
+}

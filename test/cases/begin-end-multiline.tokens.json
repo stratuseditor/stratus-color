@@ -1,0 +1,26 @@
+[ [ { "type": ""
+    , "text": "A "
+    }
+  , { "type": "string"
+    , "text": "\" 1"
+    }
+  ]
+, [ { "type": "string"
+    , "text": "2"
+    }
+  ]
+, []
+, [ { "type": "string"
+    , "text": "3"
+    }
+  ]
+, [ { "type": "string"
+    , "text": "\""
+    }
+  ]
+, [ { "type": ""
+    , "text": "B"
+    }
+  ]
+, []
+]

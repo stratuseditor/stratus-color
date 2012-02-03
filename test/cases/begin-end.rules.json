@@ -1,0 +1,7 @@
+{ "Test-begin-end":
+  [ { "token": "string"
+    , "begin": "\""
+    , "end":   "\""
+    }
+  ]
+}

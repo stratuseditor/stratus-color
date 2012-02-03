@@ -1,0 +1,64 @@
+{ "background": "#272822"
+, "color":      "white"
+
+, "search": { "background": "rgba(255, 255, 255, 0.4)" }
+, "emphasize":
+  { "background":  "rgba(255, 255, 255, 0.08)"
+  , "border":      "1px solid rgba(255, 255, 255, 0.35)"
+  , "margin-left": "-1px"
+  , "margin-top":  "-1px"
+  }
+
+, "line-numbers":
+  { "background": "#272822"
+  , "color":      "#8f908a"
+  }
+, "current-line-numbers":
+  { "background":   "#3e3d32"
+  , "border-color": "#545344"
+  }
+
+, "cursor":    "white"
+, "selection": "rgba(69, 68, 59, 0.45)"
+
+, "highlight":
+  { "comment": { "color": "#5c5848" }
+  
+  , "constant":           { "color": "#60d6ef" }
+  , "constant.builtin":   { "color": "#9064b8" }
+  , "constant.numeric":   { "color": "#9064b8" }
+  , "constant.character": { "color": "#e6db74" }
+  , "constant.symbol":    { "color": "#9064b8" }
+  
+  , "entity":               { "color": "#ffc66d" }
+  , "entity.builtin":       { "color": "#60d6ef" }
+  , "entity.class":         { "color": "#a6cc29" }
+  , "entity.function":      { "color": "#a6cc29" }
+  , "entity.tag":           { "color": "#f9266b" }
+  , "entity.tag.class":     { "color": "#a6cc29" }
+  , "entity.tag.id":        { "color": "#60d6ef" }
+  , "entity.tag.attribute": { "color": "#a6cc29" }
+  , "entity.type":          { "color": "#60d6ef" }
+  
+  , "invalid":           { "border-bottom": "1px solid #da4939" }
+
+  , "keyword":           { "color": "#f9266b" }
+  
+  , "markup.bold":       { "font-weight": "bold" }
+  , "markup.code":       {  }
+  , "markup.header":     { "color": "#f9266b" }
+  , "markup.italic":     { "font-style": "italic" }
+  , "markup.link":       { "text-decoration": "underline" }
+  , "markup.list":       { "color": "#60d6ef" }
+  , "markup.underline":  { "text-decoration": "underline" }
+  
+  , "string":            { "color": "#e6db74" }
+  , "string.escape":     { "color": "#9064b8" }
+  , "string.interpol":   { "color": "#9064b8" }
+  , "string.regexp":     { "color": "#9064b8" }
+  
+  , "support":           { "color": "#60d6ef" }
+  
+  , "variable":          { "color": "#fd971f" }
+  }
+}

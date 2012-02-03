@@ -1,0 +1,18 @@
+[ [ { "type": ""
+    , "text": "A "
+    }
+  , { "type": "string"
+    , "text": "\"B"
+    }
+  , { "type": "string.escape"
+    , "text": "\\n"
+    }
+  , { "type": "string"
+    , "text": "\""
+    }
+  , { "type": ""
+    , "text": " C"
+    }
+  ]
+, []
+]

@@ -1,0 +1,24 @@
+[ [ { "type": ""
+    , "text": "<div>"
+    }
+  , { "type": "tag"
+    , "text": "<%"
+    }
+  , { "type": ""
+    , "text": " "
+    }
+  , { "type": "keyword"
+    , "text": "yield"
+    }
+  , { "type": ""
+    , "text": " "
+    }
+  , { "type": "tag"
+    , "text": "%>"
+    }
+  , { "type": ""
+    , "text": "</div>"
+    }
+  ]
+, []
+]

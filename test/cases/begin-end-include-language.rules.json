@@ -1,0 +1,13 @@
+{ "Test-begin-end-include-language":
+  [ { "token":   "tag"
+    , "begin":   "<%"
+    , "end":     "%>"
+    , "include": "@Test-include-language"
+    }
+  ]
+, "Test-include-language":
+  [ { "token": "keyword"
+    , "match": "yield"
+    }
+  ]
+}

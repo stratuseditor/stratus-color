@@ -1,0 +1,18 @@
+[ [ { "type": "thing"
+    , "text": "droid"
+    }
+  , { "type": ""
+    , "text": " droids "
+    }
+  , { "type": "thing"
+    , "text": "cheese"
+    }
+  , { "type": ""
+    , "text": " Cheese _droid -"
+    }
+  , { "type": "thing"
+    , "text": "droid"
+    }
+  ]
+, []
+]

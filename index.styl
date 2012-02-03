@@ -1,0 +1,43 @@
+*
+  margin 0px
+  padding 0px
+
+.stratus-color
+  font-family monospace
+  font-size 13px
+  overflow auto
+  white-space pre
+  word-wrap normal
+  
+  > ul
+    float left
+    list-style none
+    li
+      height 15px
+      padding-left 2px
+  
+  // The gutter for stratus-color standalone (static).
+  > .stratus-color-gutter
+    float left
+    padding 0px 3px 0px 6px
+    text-align right
+    -webkit-user-select none
+    > span
+      display block
+  
+  // Custom scrollbars for webkit browsers.
+  &::-webkit-scrollbar
+    height 10px
+    width 10px
+  
+  &::-webkit-scrollbar-track
+    background #eee
+    box-shadow inset 1px 1px 2px rgba(black, 0.2)
+  
+  &::-webkit-scrollbar-thumb
+    background #888
+    box-shadow inset 1px 0px 2px rgba(black, 0.2)
+  
+  &::-webkit-scrollbar-thumb:hover
+    background #666
+    box-shadow inset 1px 1px 3px rgba(black, 0.2)

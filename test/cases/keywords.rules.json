@@ -1,0 +1,6 @@
+{ "Test-keywords":
+  [ { "token":    "thing"
+    , "keywords": "droid|cheese"
+    }
+  ]
+}

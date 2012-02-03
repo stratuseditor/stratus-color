@@ -1,0 +1,6 @@
+{ "Test-regex":
+  [ { "token": "cheesy"
+    , "match": "[Cc]heese"
+    }
+  ]
+}

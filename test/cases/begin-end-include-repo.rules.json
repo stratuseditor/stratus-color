@@ -1,0 +1,21 @@
+{ "Test-begin-end-include-repo":
+  [ { "token":   "string"
+    , "begin":   "\""
+    , "end":     "\""
+    , "include":
+      [ { "include": "#back-c" }
+      , { "include": "#back-d" }
+      ]
+    }
+  ]
+
+, "#back-c":
+  { "token": "string.escape.c"
+  , "match": "\\\\c"
+  }
+
+, "#back-d":
+  { "token": "string.escape.d"
+  , "match": "\\\\d"
+  }
+}
