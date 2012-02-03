@@ -1,5 +1,5 @@
 should    = require 'should'
-highlight = require '../'
+highlight = require '../src'
 
 describe "highlight", ->
   describe ".file", ->
