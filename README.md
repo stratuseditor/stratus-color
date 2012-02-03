@@ -1,5 +1,7 @@
 # Stratus:Color
 
+[![Build Status](https://secure.travis-ci.org/stratuseditor/stratus-color.png)](http://travis-ci.org/stratuseditor/stratus-color)
+
 It works from the command line, or the [browser][browserify],
 and is used by [Stratus Editor][stratus].
 
