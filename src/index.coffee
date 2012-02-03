@@ -20,6 +20,11 @@ module.exports = srvHighlight = (text, languageName, options = {}) ->
   return highlight text, languageName, options
 
 
+# Extend exports.
+for k, v of highlight
+  srvHighlight[k] = v
+
+
 srvHighlight.css = theme
 
 # Public: Highlight the file by its path. If no language name is
