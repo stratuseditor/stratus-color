@@ -60,6 +60,8 @@ Highlight a file
 
 ## [Writing syntaxes](http://stratuseditor.com/bundles#Writing+bundles)
 
+# License
+See LICENSE.
 
 [browserify]:     https://github.com/substack/node-browserify
 [stratus]:        http://stratuseditor.com/
