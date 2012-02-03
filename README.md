@@ -48,6 +48,8 @@ Highlight a string
     # , [...]
     # ]
 
+### color.file(path, options?, callback)
+
 Highlight a file
 
     color.file "path/to/file.rb", (err, html) ->
