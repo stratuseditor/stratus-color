@@ -99,6 +99,12 @@ highlight.tokenize = tokenize = (text, stack) ->
   return {stack, tokens}
 
 highlight.scopes = {}
+if typeof(window) != "undefined"
+  if window.stratusColor?.scopes
+    highlight.scopes = window.stratusColor.scopes
+  else
+    window.stratusColor ?= {}
+    window.stratusColor.scopes ?= highlight.scopes
 
 highlight.html   = html.tokensToHtml
 highlight.escape = html.escape
