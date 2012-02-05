@@ -2,8 +2,7 @@ should    = require 'should'
 bundle    = require 'stratus-bundle'
 highlight = require '../src'
 
-bundleDir  = require.resolve("stratus-bundle").split("/")[0..-2].join("/")
-bundle.dir = "#{bundleDir}/test/cases"
+bundle.testDir()
 
 describe "highlight", ->
   describe ".file", ->
