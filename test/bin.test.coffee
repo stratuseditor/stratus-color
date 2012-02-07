@@ -4,7 +4,7 @@ bundle = require 'stratus-bundle'
 bundle.testDir()
 
 rubyCode = "def hi()\n  true\nend"
-bin      = "./bin/stratus-color.js"
+bin      = "#{__dirname}/../bin/stratus-color.js"
 
 describe "stratus-color.js", ->
   describe "pass code to STDIN", ->
