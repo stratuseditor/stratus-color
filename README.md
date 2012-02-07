@@ -25,6 +25,10 @@ Writes highlighted version of somefile.rb to ./somefile.rb.html,
 
     $ stratus-color --file somefile.rb
 
+The code can be passed via STDIN instead.
+
+    $ echo 'def hi()\n  true\nend' | stratus-color -l Ruby
+
 
 ## API
 ### color(text, rules, context)
