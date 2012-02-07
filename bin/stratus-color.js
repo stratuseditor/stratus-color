@@ -56,11 +56,11 @@ if (inFile) {
   process.stdin.resume();
   process.stdin.setEncoding('utf8');
   
-  process.stdin.on('data', function (chunk) {
+  process.stdin.on('data', function(chunk) {
     rawData += chunk;
   });
   
-  process.stdin.on('end', function () {
+  process.stdin.on('end', function() {
     html = highlight(rawData, options.language, options);
     output(html);
   });
