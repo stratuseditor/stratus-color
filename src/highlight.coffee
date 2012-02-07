@@ -12,6 +12,8 @@ html = require './renderers/html'
 # context - The starting context.
 # options - An hash. Keys:
 #           * format - Default: "html", "json".
+#           * gutter - Only applicable when "format" is "html".
+#             Whether or not line numbers are rendered.
 # 
 # Examples
 # 

@@ -32,23 +32,27 @@ describe "highlight", ->
       it "escapes html", ->
         html.should.match /&#61;/
         html.should.not.match />[^<>]*[=][^<>]</
-    
-    
-    describe "html format with gutter", ->
-      html = highlight rubyCode, "Ruby",
-        format: "html"
-        gutter: true
-      
-      it "include the gutter html", ->
-        html.should.match /<div class='stratus-color-gutter'>/
       
       for ln in [1..4]
         do (ln) ->
           it "has a line number #{ ln }", ->
             html.should.match new RegExp "<span>#{ ln }</span>"
       
+      it "includes the gutter", ->
+        html.should.include "<div class='stratus-color-gutter'>"
+    
+    
+    describe "html format without the gutter", ->
+      html = highlight rubyCode, "Ruby",
+        format: "html"
+        gutter: false
+      
+      it "include the gutter html", ->
+        html.should.not.match /<div class='stratus-color-gutter'>/
+      
       it "does not have a line number 5", ->
-        html.should.not.match /<span>5<\/span>/
+        html.should.not.include "<span>1</span>"
+        html.should.not.include "stratus-color-gutter"
   
   
   describe ".tokenize", ->
