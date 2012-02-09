@@ -1,5 +1,5 @@
 { "name":        "stratus-color"
-, "version":     "0.0.1"
+, "version":     "0.0.2"
 , "description": "a syntax highligher for standalone static use or by Stratus Editor"
 , "keywords":    ["stratus", "syntax", "highlighter", "browserify"]
 , "homepage":    "https://github.com/stratuseditor/stratus-color/"
