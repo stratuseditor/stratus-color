@@ -4,7 +4,7 @@ var fs         = require('fs')
   , commander  = require('commander')
   , bundle     = require('stratus-bundle')
 
-  , highlight  = require('../lib')
+  , highlight  = require('../')
   , standalone = require('../lib/standalone')
   , theme      = require('../lib/theme');
 
